@@ -34,7 +34,7 @@ export const graphqlApi = /*#__PURE__*/ <TContext>(
     const result = await processRequest({
       schema,
       query,
-      variables,
+      variables, 
       operationName,
       request,
       contextFactory,

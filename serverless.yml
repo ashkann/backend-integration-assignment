@@ -30,3 +30,5 @@ functions:
     handler: src/fn_graphql.handler
     events:
       - httpApi: '*'
+  totalEnergyConsumptionPerDay:
+    timeout: 30 # Increase this value as needed      
